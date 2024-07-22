@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    color: #fff;
+    background: rgb(126, 2, 243);
+    text-align: center;
+    text-transform: capitalize;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.4rem;
+    gap: 12px;
+}
+.btn{
+    padding: 6px 12px;
+    margin: 4px 8px;
+    background: rgb(170, 0, 255);
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 19px;
+}
+#count{
+    font-size: 29px;
+}
+input[type="number"]{
+    border: 1px solid black;
+    border-radius: 2px ;
+}
+input[type="number"]:focus{
+    outline: none;
+    border: 2px solid black;
+    border-radius: 4px;
+}
